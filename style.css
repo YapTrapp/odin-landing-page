@@ -26,7 +26,7 @@ header {
     justify-content: space-around;
 }
 
-ul {
+nav {
     list-style: none;
 }
 
@@ -36,6 +36,8 @@ ul {
 }
 
 .container-hero {
+    max-width: 800px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 8px;
@@ -55,4 +57,17 @@ button {
     padding: 5px 15px;
     color: white;
     background-color: black;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    margin: 15px;
+}
+
+.info-box {
+    border: 2px solid #da1a32;
+    padding: 50px;
 }
