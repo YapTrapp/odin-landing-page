@@ -69,5 +69,14 @@ button {
 
 .info-box {
     border: 2px solid #da1a32;
-    padding: 50px;
+    padding: 15px;
+}
+
+main p {
+    text-align: center;
+}
+
+.container-quote {
+    background-color: lightgray;
+    padding: 8px;
 }
