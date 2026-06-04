@@ -50,7 +50,7 @@ nav {
 }
 
 .title-text {
-    text-align: center;
+    text-align: left;
 }
 
 button {
@@ -72,11 +72,42 @@ button {
     padding: 15px;
 }
 
-main p {
+main p, h2 {
     text-align: center;
 }
 
 .container-quote {
     background-color: lightgray;
     padding: 8px;
+}
+
+.call {
+    background-color: #da1a32;
+    padding: 15px;
+    margin: 50px;
+}
+
+.call-text {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#action, #button-alert {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #a00c30;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    color: white;
 }
