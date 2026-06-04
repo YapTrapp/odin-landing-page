@@ -41,10 +41,10 @@ ul {
     gap: 8px;
 }
 
-.header-image {
-    border: 2px solid yellow;
-    padding: 10px;
-    margin: 10px;
+.hero-image {
+    max-height: 200px;
+    width: auto;
+    margin: 6px;
 }
 
 .title-text {
@@ -52,6 +52,7 @@ ul {
 }
 
 button {
-    padding: 6px;
-    margin: 6px;
+    padding: 5px 15px;
+    color: white;
+    background-color: black;
 }
