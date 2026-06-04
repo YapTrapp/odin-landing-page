@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #a00c30;
+    color: white;
+}
+
+.container-header {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.header-links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 6px;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+}
+
+.hero {
+    background-color: #a00c30;
+    color: white;
+}
+
+.container-hero {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.header-image {
+    border: 2px solid yellow;
+    padding: 10px;
+    margin: 10px;
+}
+
+.title-text {
+    text-align: center;
+}
+
+button {
+    padding: 6px;
+    margin: 6px;
+}
